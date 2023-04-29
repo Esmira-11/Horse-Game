@@ -1,3 +1,4 @@
+/* INDEX PAGE */
 .container{
     background-color: #3cb13c;
     padding: 60px;
@@ -9,9 +10,9 @@
     text-align: center;
 }
 .intro-content{
-    padding: 40px 0;
+    padding: 40px 110px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .intro-content p,ul{
     font-size: 25px;
@@ -80,4 +81,45 @@ input{
     background-color: #3cb13c;
     color: #fff;
     border: 2px solid #fff;
+}
+
+
+/* MAIN PAGE */
+.main-section{
+background-color: #3cb13c;
+display: flex;
+justify-content: space-between;
+padding: 40px 80px;
+height: 500px;
+}
+.main-left{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-right{
+    height: 99%;
+    border: 3px solid #fff;
+    
+
+}
+
+.main-left-top,.main-left-center,.main-left-bottom{
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    height: 33%;
+    margin-bottom: 8px;
+}
+#bottom{
+    margin: 0;
+}
+.main-left img{
+    width:250px;
+    height: 100%;
+}
+.main-right img{
+    height: 100%;
+    width: 100%;
 }
